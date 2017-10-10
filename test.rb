@@ -41,9 +41,9 @@ class CarModelsAndMakes
 	end
 end
 
-puts "What is the car make file?"
+puts "What is the car make filename without the extension?"
 file1 = gets.chomp
-puts "What is the car model file?"
+puts "What is the car model filename without the extension?"
 file2 = gets.chomp
 car =  CarModelsAndMakes.new(file1,file2)
 puts car.hashcity
